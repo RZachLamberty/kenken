@@ -1,0 +1,28 @@
+########################################################################
+#                                                                      #
+#   todo.txt                                                           #
+#       Created: Jan 12, 2013                                          #
+#                                                                      #
+#       What is left to do in the kenken project?                      #
+#                                                                      #
+########################################################################
+
+Create a kenken class
+    Add a way to specifiy "possible" values in a square
+    Is it solved or unsolved?
+
+Find a way to generate a new kenken puzzle
+    Markov chain generation
+
+Display a given kenken puzzle
+    Red "maybe" squares
+    
+Write a solver for an arbitrary kenken puzzle
+
+
+
+separate solveDic / possDic options, and update the way we solve kenkens
+by keeping track of the possible tuples of values rather than just the
+list of possible values at a given node
+
+Complete definition of necessaryRuleValues( self ):
